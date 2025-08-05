@@ -593,23 +593,23 @@ function App() {
                     />
                   </div>
                   <a
-                    href="https://bento-gen.vercel.app/"
+                    href="https://github.com/jansh7784/AI-Web-Scrapper"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="absolute top-0 right-0 z-30"
-                    aria-label="View Bento Grid Generator project"
+                    aria-label="View AI Web Scrapper project"
                   >
                     <CachedImage
                       src={link}
-                      alt="Link to Bento Grid Generator project"
+                      alt="Link to AI Web Scrapper project"
                       className="w-10 h-10"
                       
                       loading="lazy"
                     />
                   </a>
                   <SpeechBoxSolid className="absolute left-1/2 bottom-4 -translate-x-1/2 w-2/3 px-4 py-2 z-10 m-0 text-xs font-mono text-center transition duration-500 group-hover:translate-y-[150%]">
-                    <h3 className="font-bold font-mono text-base capitalize text-center">Bento Grid Generator</h3>
-                    <p className="text-sm font-mono normal-case text-justify">Designed a tool that generates bento-style UI layouts with live previews and exportable code templates.</p>
+                    <h3 className="font-bold font-mono text-base capitalize text-center">AI Web Scrapper</h3>
+                    <p className="text-sm font-mono normal-case text-justify">Streamlit-based web scraper with AI-powered content parsing and analysis. Extract insights from any website efficiently.</p>
                   </SpeechBoxSolid>
                   <div className="max-w-[40vw] h-auto border-2 md:border-4 border-black overflow-hidden">
                     <CachedImage
