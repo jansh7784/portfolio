@@ -23,14 +23,20 @@ const NotFound = () => {
         >
           Go Back Simon
         </button>
-        <Lottie
-          options={defaultOptions}
+        <div
           style={{ 
             pointerEvents: 'none',
             width: '100%',
-            height: '100%'
+            height: '100%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: '2rem',
+            fontWeight: 'bold'
           }}
-        />
+        >
+          404 - Page Not Found
+        </div>
       </div>
     </div>
   );
