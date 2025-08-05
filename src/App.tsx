@@ -834,15 +834,15 @@ function App() {
                   />
                 </div>
                 <a
-                  href="https://github.com/MaybeTarun/Cognify"
+                  href="https://github.com/jansh7784/vechile-rental"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="absolute top-0 right-0 z-30"
-                  aria-label="View Cognify project on GitHub"
+                  aria-label="View Vehicle Rental project on GitHub"
                 >
                   <CachedImage
                     src={link}
-                    alt="Link to Cognify project"
+                    alt="Link to Vehicle Rental project"
                     className="w-10 h-10"
                     
                     loading="lazy"
@@ -851,15 +851,15 @@ function App() {
                 <div className="w-full h-auto border-2 md:border-4 border-black overflow-hidden">
                   <CachedImage
                     src={cognify}
-                    alt="Cognify - Android learning platform with AI-powered concept explanation"
+                    alt="Vehicle Rental System - Comprehensive fleet and booking management platform"
                     className="w-full h-auto transition-transform duration-300"
                     loading="lazy"
                   />
                 </div>
               </div>
               <SpeechBoxSolid className="w-full mt-2 text-xs font-mono text-center">
-                <h3 className="font-bold font-mono text-sm capitalize text-center">Cognify</h3>
-                <p className="text-sm font-mono normal-case text-justify">Developed an Android learning platform with Kotlin and OpenAI to simplify how users learn and understand new concepts.</p>
+                <h3 className="font-bold font-mono text-sm capitalize text-center">Vehicle Rental System</h3>
+                <p className="text-sm font-mono normal-case text-justify">Comprehensive vehicle rental management system with booking, payment processing, and fleet management capabilities.</p>
               </SpeechBoxSolid>
             </article>
             <article className="w-[90vw] h-full">
