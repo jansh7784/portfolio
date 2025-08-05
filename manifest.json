@@ -1,0 +1,23 @@
+{
+    "name": "Tarun Gupta - Software Developer & Cloud Architect",
+    "short_name": "Tarun Gupta",
+    "description": "Portfolio of Tarun Gupta, Software Developer & Cloud Solution Architect specializing in Web Dev, Android Dev, Cloud Computing, and UI/UX Designing.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#00ADB5",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "/images/bug192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/bug512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
