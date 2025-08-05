@@ -651,23 +651,23 @@ function App() {
                     />
                   </div>
                   <a
-                    href="https://github.com/MaybeTarun/Cognify"
+                    href="https://github.com/jansh7784/vechile-rental"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="absolute top-0 right-0 z-30"
-                    aria-label="View Cognify project on GitHub"
+                    aria-label="View Vehicle Rental project on GitHub"
                   >
                     <CachedImage
                       src={link}
-                      alt="Link to Cognify project"
+                      alt="Link to Vehicle Rental project"
                       className="w-10 h-10"
                       
                       loading="lazy"
                     />
                   </a>
                   <SpeechBoxSolid className="absolute left-1/2 bottom-4 -translate-x-1/2 w-2/3 px-4 py-2 z-10 m-0 text-xs font-mono text-center transition duration-500 group-hover:translate-y-[150%]">
-                    <h3 className="font-bold font-mono text-base capitalize text-center">Cognify</h3>
-                    <p className="text-sm font-mono normal-case text-justify">Developed an Android learning platform with Kotlin and OpenAI to simplify how users learn and understand new concepts.</p>
+                    <h3 className="font-bold font-mono text-base capitalize text-center">Vehicle Rental System</h3>
+                    <p className="text-sm font-mono normal-case text-justify">Comprehensive vehicle rental management system with booking, payment processing, and fleet management capabilities.</p>
                   </SpeechBoxSolid>
                   <div className="max-w-[40vw] h-auto border-2 md:border-4 border-black overflow-hidden">
                     <CachedImage
