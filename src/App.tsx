@@ -936,7 +936,7 @@ function App() {
           <motion.img
             style={{ y: imgParallaxY }}
             src={boredme}
-            alt="Tarun Gupta bored"
+            alt="Ansh Jain bored"
             className="absolute top-[20rem] md:top-72 left-16 w-36 md:w-48 h-36 md:h-48 border-2 md:border-4 border-black object-cover"
             loading="lazy"
           />
