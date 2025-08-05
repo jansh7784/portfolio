@@ -39,89 +39,89 @@ type Project = {
 };
 
 const PROJECTS = {
-  concrete: {
+  deeptrack: {
     image: concrete,
-    name: 'Concrete Damage Detector',
-    desc: 'Built a YOLO-powered damage detector to spot and segment cracks in concrete — keeping buildings strong, one frame at a time.',
-    link: 'https://github.com/MaybeTarun/Concrete-Damage-Detector',
+    name: 'DeepTrack',
+    desc: 'Advanced deep learning-based attendance system using facial recognition to automatically mark attendance via CCTV cameras with real-time detection.',
+    link: 'https://github.com/jansh7784/deeptrack',
   },
-  bento: {
+  webscrapper: {
     image: bento,
-    name: 'BentoGen',
-    desc: 'Designed a tool that generates bento-style UI layouts with live previews and exportable code templates.',
-    link: 'https://bento-gen.vercel.app/',
+    name: 'AI Web Scrapper',
+    desc: 'Streamlit-based web scraper with AI-powered content parsing and analysis. Extract insights from any website efficiently.',
+    link: 'https://github.com/jansh7784/AI-Web-Scrapper',
   },
-  foresty: {
+  vehiclerental: {
     image: foresty,
-    name: 'Foresty',
-    desc: 'Created a user-friendly platform that helps users easily discover vulnerabilities—such as open ports and other security risks—on their websites, empowering them to secure their online presence.',
-    link: 'https://github.com/MaybeTarun/Foresty',
+    name: 'Vehicle Rental System',
+    desc: 'Comprehensive vehicle rental management system with booking, payment processing, and fleet management capabilities.',
+    link: 'https://github.com/jansh7784/vechile-rental',
   },
-  finance: {
+  website02: {
     image: finance,
-    name: 'Finance Tracker',
-    desc: 'A full-featured MERN stack application for tracking personal finances. Includes intuitive dashboards, transaction management, and uses Clerk for secure user authentication and management.',
-    link: 'https://financetracker-neon.vercel.app/',
+    name: 'Coaching Management',
+    desc: 'A comprehensive coaching management website with student enrollment, class scheduling, and progress tracking features.',
+    link: 'https://github.com/jansh7784/Website_02',
   },
-  aaargh: {
+  rtucalc: {
     image: aaargh,
-    name: 'Aaargh!!',
-    desc: 'A voice-controlled game inspired by Flappy Bird, where you guide the player by making weird noises like "aaaah" or "aargh". Fun, chaotic, and a great way to test your vocal skills!',
-    link: 'https://aaargh.vercel.app/', 
+    name: 'RTU SGPA Calculator',
+    desc: 'Rajasthan Technical University SGPA calculator helping students track their academic performance efficiently.',
+    link: 'https://github.com/jansh7784/RTU-SGPA-Calculator', 
   },
-  mana: {
+  portfolio: {
     image: mana,
-    name: 'Mana House',
-    desc: 'A service-based startup that creates 3D projects for brands and agencies. We build games, 3D models, animations, and more to help businesses stand out with immersive digital experiences.',
-    link: 'https://www.manahouse.in/', 
+    name: 'Portfolio Website',
+    desc: 'A modern, responsive portfolio website showcasing projects, skills, and achievements with an interactive design.',
+    link: 'https://github.com/jansh7784/portfolio', 
   },
-  surgeon: {
+  deepseek: {
     image: surgeon,
-    name: 'Portfolio for a Surgeon',
-    desc: 'A modern, responsive portfolio website designed and developed for a doctor as part of my freelance work. Highlights expertise, services, and achievements in a clean, professional layout.',
-    link: 'https://www.surgeonrkl.com/', 
+    name: 'Deepseek Web Scrapper',
+    desc: 'Advanced web scraper using DeepSeek API for intelligent content extraction and parsing with AI-powered analysis.',
+    link: 'https://github.com/jansh7784/Deepseek-Web-Scrapper', 
   },
-  cognify: {
+  codeshare: {
     image: cognify,
-    name: 'Cognify',
-    desc: 'A cloud-based learning platform built with Kotlin and XML that automates and personalizes learning. Integrates OpenAI to make understanding new topics easy and engaging for users.',
-    link: 'https://github.com/MaybeTarun/Cognify', 
+    name: 'Code Share Platform',
+    desc: 'A collaborative platform for sharing and reviewing code snippets with real-time collaboration features.',
+    link: 'https://github.com/jansh7784/codeshare-platform', 
   },
-  holostry: {
+  ayurverse: {
     image: holostry,
-    name: 'Holostry',
-    desc: 'Developed for a 24hr hackathon (MOZOHACK), Holostry lets students visualize 3D holographic models of carbon compounds, making chemistry interactive and easier to understand.',
-    link: 'https://github.com/MaybeTarun/Holostry', 
+    name: 'Ayurverse',
+    desc: 'A modern web application for Ayurvedic medicine information and consultation platform.',
+    link: 'https://github.com/jansh7784/ayurverse', 
   },
-  sentiment: {
+  python_projects: {
     image: Sentiment,
-    name: 'Sentiment Analyzer',
-    desc: 'A Python application with a Tkinter GUI that uses Amazon Comprehend (via Boto3) to analyze the sentiment of text. Instantly see if your content is positive, negative, or neutral.',
-    link: 'https://github.com/MaybeTarun/SentimentAnalyzer', 
+    name: 'Python Mini Projects',
+    desc: 'Collection of Python mini projects covering various modules and concepts for learning and development.',
+    link: 'https://github.com/jansh7784/Python-Mini-Projects-', 
   },
-  colorizer: {
+  bike_rental: {
     image: Colorizer,
-    name: 'Image Colorizer',
-    desc: 'A web app that colorizes black and white photos using a machine learning model by Rich Zhang. Upload your old photos and bring them to life with vibrant colors!',
-    link: 'https://github.com/MaybeTarun/ImageColorizer', 
+    name: 'Bike Rental System',
+    desc: 'A comprehensive bike rental management system with booking, inventory, and customer management features.',
+    link: 'https://github.com/jansh7784/Bike-Rental-System', 
   },
-  revo: {
+  ieee_project: {
     image: Revo,
-    name: 'Revo',
-    desc: 'A custom React project setup tool built on top of Vite. Streamlines your workflow with a clean project structure, pre-configured with Tailwind CSS and Framer Motion.',
-    link: 'https://www.npmjs.com/package/create-revo', 
+    name: 'IEEE Project',
+    desc: 'A technical project developed for college IEEE Computer Society showcasing innovative solutions.',
+    link: 'https://github.com/jansh7784/ieeeproject', 
   },
-  knowabout: {
+  hacktoberfest: {
     image: knowabout,
-    name: 'Know-About',
-    desc: 'An NPM package that gives you info about people when you run the command "npx know-about [name]". Currently features a few profiles—DM me on Twitter to add yours!',
-    link: 'https://www.npmjs.com/package/know-about', 
+    name: 'Hacktoberfest 2024',
+    desc: 'Open source contribution repository for Hacktoberfest 2024. Make your first Pull Request here!',
+    link: 'https://github.com/jansh7784/Hacktoberfest2024', 
   },
-  payback: {
+  mini_html: {
     image: payback,
-    name: 'Payback-to-ya',
-    desc: 'A playful NPM package for web devs: if your client doesn’t pay on time, add Payback-to-ya to their site and watch it slowly disappear over 7 days. ShIk sHaK ShOk!',
-    link: 'https://www.npmjs.com/package/payback-to-ya', 
+    name: 'Mini HTML Projects',
+    desc: 'Collection of small HTML/CSS/JS projects for learning web development fundamentals.',
+    link: 'https://github.com/jansh7784/mini-html-projects', 
   },
   soon: {
     image: soon,
@@ -132,11 +132,11 @@ const PROJECTS = {
 };
 
 const DUMMY_PROJECTS: Record<TabKey, Project[]> = {
-  web: [PROJECTS.bento, PROJECTS.aaargh, PROJECTS.mana, PROJECTS.foresty, PROJECTS.surgeon, PROJECTS.finance,],
-  android: [PROJECTS.cognify, PROJECTS.holostry],
-  python: [PROJECTS.concrete, PROJECTS.sentiment, PROJECTS.colorizer],
-  npm: [PROJECTS.revo, PROJECTS.knowabout, PROJECTS.payback],
-  // cloud: [PROJECTS.concrete, PROJECTS.bento, PROJECTS.concrete, PROJECTS.bento],
+  web: [PROJECTS.webscrapper, PROJECTS.vehiclerental, PROJECTS.portfolio, PROJECTS.website02, PROJECTS.codeshare, PROJECTS.ayurverse],
+  android: [PROJECTS.codeshare, PROJECTS.ayurverse],
+  python: [PROJECTS.deeptrack, PROJECTS.deepseek, PROJECTS.python_projects, PROJECTS.bike_rental],
+  npm: [PROJECTS.hacktoberfest, PROJECTS.mini_html, PROJECTS.ieee_project],
+  // cloud: [PROJECTS.deeptrack, PROJECTS.webscrapper, PROJECTS.deeptrack, PROJECTS.webscrapper],
   uiux: [PROJECTS.soon, PROJECTS.soon, PROJECTS.soon, PROJECTS.soon, PROJECTS.soon, PROJECTS.soon],
 };
 
@@ -385,4 +385,4 @@ function PageNumberControl({ page, totalPages, onPrev, onNext, disablePrev, disa
       </button>
     </div>
   );
-} 
+}

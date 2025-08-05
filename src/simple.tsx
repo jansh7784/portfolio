@@ -59,10 +59,10 @@ const Simple = () => (
           href="/" 
           className="text-2xl font-bold cursor-pointer hover:scale-105 transition-all duration-100"
         >
-          TG
+          AJ
         </a>
         <a 
-          href="https://drive.google.com/file/d/15owSoVRzK790PvYEza7jn6GHOUDquUAf/view" 
+          href="https://drive.google.com/file/d/1stbbC0gOAY1YuEG1JpWHM2WsV5QsT0Ft/view" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-sm text-white hover:text-black hover:bg-white transition-colors border border-white px-4 py-2"
@@ -72,7 +72,7 @@ const Simple = () => (
       </div>
 
       <div className="mb-8 text-center">
-        <h2 className="text-3xl sm:text-4xl font-mono font-bold mb-1">Tarun Gupta</h2>
+        <h2 className="text-3xl sm:text-4xl font-mono font-bold mb-1">Ansh Jain</h2>
         <p className="text-[#9f9f9f] text-sm sm:text-xl leading-relaxed">
           <a href="/projects">
             <Tooltip text="certified by my projects" variant="left">
@@ -81,16 +81,16 @@ const Simple = () => (
           </a>
           {" "}and{" "}
           <a 
-            href="https://www.credly.com/badges/712255f1-8bbc-4878-b80a-8282844ec96f/public_url" 
+            href="https://github.com/jansh7784" 
             target="_blank" 
             rel="noopener noreferrer"
           >
-            <Tooltip text="certified by AWS" variant="right">
-              Cloud Solutions Architect
+            <Tooltip text="certified by GitHub" variant="right">
+              Full Stack Developer
             </Tooltip>
           </a>
           <br />
-          <span className="text-xs sm:text-lg">&lt; Proficient in React.js and AWS &gt;</span>
+          <span className="text-xs sm:text-lg">&lt; Proficient in React.js, Node.js & AI/ML &gt;</span>
         </p>
       </div>
 
@@ -100,7 +100,7 @@ const Simple = () => (
         </p>
         <div className="flex flex-wrap justify-center gap-6 text-2xl text-[#9f9f9f]">
           <a 
-            href="https://linkedin.com/in/maybetarun" 
+            href="https://linkedin.com/in/ansh--jain" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:text-white cursor-pointer transition-colors"
@@ -108,7 +108,7 @@ const Simple = () => (
             <FaLinkedin />
           </a>
           <a 
-            href="https://twitter.com/maybetarun" 
+            href="https://medium.com/@jansh7784" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:text-white cursor-pointer transition-colors"
@@ -116,7 +116,7 @@ const Simple = () => (
             <FaXTwitter />
           </a>
           <a 
-            href="https://github.com/maybetarun" 
+            href="https://github.com/jansh7784" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:text-white cursor-pointer transition-colors"
@@ -124,7 +124,7 @@ const Simple = () => (
             <FaGithub />
           </a>
           <a 
-            href="mailto:tarun234.tg@gmail.com"
+            href="mailto:jansh7784@gmail.com"
             className="hover:text-white cursor-pointer transition-colors"
           >
             <FaEnvelope />
