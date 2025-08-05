@@ -307,7 +307,7 @@ function App() {
           <div className="border-y-4 border-black w-full h-full object-cover overflow-hidden">
             <motion.img
               src={awakening}
-              alt="Tarun Gupta's development journey"
+              alt="Ansh Jain's development journey"
               className="w-full h-full object-cover"
               loading="lazy"
               initial={{ scale: 1.2 }}
