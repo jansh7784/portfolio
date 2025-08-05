@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 import vect from '../assets/vect.webp';
-import { motion, useViewportScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 
 interface SpeechBoxProps {
   children: ReactNode;
