@@ -971,14 +971,14 @@ function App() {
             </div>
           </div>
           <div className="flex flex-row justify-center items-center gap-6 mb-8 md:mb-16 mt-4 md:mt-8">
-            <a href="https://linkedin.com/in/maybetarun" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://linkedin.com/in/ansh--jain" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <CachedImage src={LinkedinLogo} alt="LinkedIn" className="w-8 md:w-12 h-8 md:h-12 hover:scale-105 transition-opacity duration-200" loading="lazy" />
             </a>
-            <a href="https://github.com/maybetarun" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/jansh7784" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <CachedImage src={GithubLogo} alt="GitHub" className="w-8 md:w-12 h-8 md:h-12 hover:scale-105 transition-opacity duration-200" loading="lazy" />
             </a>
-            <a href="https://twitter.com/maybetarun" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-              <CachedImage src={XLogo} alt="X (Twitter)" className="w-8 md:w-12 h-8 md:h-12 hover:scale-105 transition-opacity duration-200" loading="lazy" />
+            <a href="https://medium.com/@jansh7784" target="_blank" rel="noopener noreferrer" aria-label="Medium">
+              <CachedImage src={MediumLogo} alt="Medium" className="w-8 md:w-12 h-8 md:h-12 hover:scale-105 transition-opacity duration-200" loading="lazy" />
             </a>
           </div>
           <PageNumberControl />
