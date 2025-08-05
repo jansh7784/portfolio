@@ -1,6 +1,3 @@
-import Lottie from 'react-lottie';
-import animationData from './assets/notfound.json';
-
 const NotFound = () => {
   return (
     <div className="w-full h-dvh flex justify-center items-center p-4">
