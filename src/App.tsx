@@ -288,7 +288,7 @@ function App() {
         <section className="relative w-full h-dvh flex justify-center items-center" aria-label="Introduction">
           <motion.img
             src={kid}
-            alt="Tarun Gupta as kid"
+            alt="Ansh Jain as kid"
             className="border-2 md:border-4 border-black w-[90vw] md:w-[60vw] h-auto z-10"
             loading="lazy"
             initial={{ scale: 3 }}
