@@ -614,7 +614,7 @@ function App() {
                   <div className="max-w-[40vw] h-auto border-2 md:border-4 border-black overflow-hidden">
                     <CachedImage
                       src={bento}
-                      alt="Bento Grid Generator - UI layout tool for creating bento-style designs with live previews"
+                      alt="AI Web Scrapper - Streamlit-based web scraper with AI-powered content analysis"
                       className="w-full h-auto transition-transform duration-300"
                       loading="lazy"
                     />
