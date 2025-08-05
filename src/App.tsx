@@ -80,7 +80,7 @@ function App() {
   const [showSpeech, setShowSpeech] = useState(false);
   const [isShooterOpen, setIsShooterOpen] = useState(false);
 
-  const { scrollY } = useViewportScroll();
+  const { scrollY } = useScroll();
   const imgParallaxY = useTransform(scrollY, value => -value * 0.09);
 
   const [rotation, setRotation] = useState({ initial: -20, whileInView: -12 });
