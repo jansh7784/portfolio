@@ -507,10 +507,10 @@ function App() {
               />
             </div>
             <SpeechBoxLL className="absolute top-[20rem] -right-[60%] hidden md:block">
-              With his powers now honed, Tarun<br/>sets off on <span className='gaegu-bold'>quests</span> that tests both<br/>his logic and caffeine limits.
+              With his powers now honed, Ansh<br/>sets off on <span className='gaegu-bold'>quests</span> that tests both<br/>his logic and caffeine limits.
             </SpeechBoxLL>
             <SpeechBoxL className="absolute top-[24rem] -right-6 md:hidden block">
-              With his powers now honed, Tarun<br/>sets off on <span className='gaegu-bold'>quests</span> that tests both<br/>his logic and caffeine limits.
+              With his powers now honed, Ansh<br/>sets off on <span className='gaegu-bold'>quests</span> that tests both<br/>his logic and caffeine limits.
             </SpeechBoxL>
           </div>
           <motion.div className="w-1/2 relative" initial={{ x: '100%' }} whileInView={{ x: 0 }} transition={{ duration: 1, delay: 0.5 }} viewport={{ once: true }}>          
