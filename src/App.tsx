@@ -960,7 +960,7 @@ function App() {
             </div>
             <div className="flex flex-col items-center">
               <a
-                href="mailto:tarun234.tg@gmail.com"
+                href="mailto:jansh7784@gmail.com"
                 className="box-button"
               >
                 <div className="button">
