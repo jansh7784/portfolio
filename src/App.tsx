@@ -334,7 +334,7 @@ function App() {
             />
           </div>
           <motion.img
-            src={flyingTarun}
+            src={flyingAnsh}
             alt="Flying character illustration"
             className="absolute h-12 md:h-36 w-auto rotate-[20deg] md:-rotate-12 -top-4 -left-4 md:left-4 scale-125"
             loading="lazy"
