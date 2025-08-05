@@ -791,15 +791,15 @@ function App() {
                   />
                 </div>
                 <a
-                  href="https://bento-gen.vercel.app/"
+                  href="https://github.com/jansh7784/AI-Web-Scrapper"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="absolute top-0 right-0 z-30"
-                  aria-label="View Bento Grid Generator project"
+                  aria-label="View AI Web Scrapper project"
                 >
                   <CachedImage
                     src={link}
-                    alt="Link to Bento Grid Generator project"
+                    alt="Link to AI Web Scrapper project"
                     className="w-10 h-10"
                     
                     loading="lazy"
@@ -808,15 +808,15 @@ function App() {
                 <div className="w-full h-auto border-2 md:border-4 border-black overflow-hidden">
                   <CachedImage
                     src={bento}
-                    alt="Bento Grid Generator - UI layout tool for creating bento-style designs with live previews"
+                    alt="AI Web Scrapper - Streamlit-based web scraper with AI-powered content analysis"
                     className="w-full h-auto transition-transform duration-300"
                     loading="lazy"
                   />
                 </div>
               </div>
               <SpeechBoxSolid className="w-full mt-2 text-xs font-mono text-center">
-                <h3 className="font-bold font-mono text-sm capitalize text-center">Bento Grid Generator</h3>
-                <p className="text-sm font-mono normal-case text-justify">Designed a tool that generates bento-style UI layouts with live previews and exportable code templates.</p>
+                <h3 className="font-bold font-mono text-sm capitalize text-center">AI Web Scrapper</h3>
+                <p className="text-sm font-mono normal-case text-justify">Streamlit-based web scraper with AI-powered content parsing and analysis. Extract insights from any website efficiently.</p>
               </SpeechBoxSolid>
             </article>
             <article className="w-[90vw] h-full">
