@@ -672,7 +672,7 @@ function App() {
                   <div className="max-w-[40vw] h-auto border-2 md:border-4 border-black overflow-hidden">
                     <CachedImage
                       src={cognify}
-                      alt="Cognify - Android learning platform with AI-powered concept explanation"
+                      alt="Vehicle Rental System - Comprehensive fleet and booking management platform"
                       className="w-full h-auto transition-transform duration-300"
                       loading="lazy"
                     />
