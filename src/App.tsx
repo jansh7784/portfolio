@@ -877,15 +877,15 @@ function App() {
                   />
                 </div>
                 <a
-                  href="https://aaargh.vercel.app/"
+                  href="https://github.com/jansh7784/RTU-SGPA-Calculator"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="absolute top-0 right-0 z-30"
-                  aria-label="View AAARGH!! game project"
+                  aria-label="View RTU SGPA Calculator project"
                 >
                   <CachedImage
                     src={link}
-                    alt="Link to AAARGH!!"
+                    alt="Link to RTU SGPA Calculator"
                     className="w-10 h-10"
                     
                     loading="lazy"
@@ -897,13 +897,13 @@ function App() {
                     className="w-full h-auto border-2 md:border-4 border-black"
                     controls
                     playsInline
-                    title="AAARGH!! - Voice-controlled flying game demonstration"
+                    title="RTU SGPA Calculator - Academic performance tracking tool"
                   />
                 </div>
               </div>
               <SpeechBoxSolid className="w-full mt-2 text-xs font-mono text-center">
-                <h3 className="font-bold font-mono text-sm capitalize text-center">AAARGH!!</h3>
-                <p className="text-sm font-mono normal-case text-justify">Built a game where screaming 'aaaargh' actually makes you fly — no tapping, just weird noises.</p>
+                <h3 className="font-bold font-mono text-sm capitalize text-center">RTU SGPA Calculator</h3>
+                <p className="text-sm font-mono normal-case text-justify">Rajasthan Technical University SGPA calculator helping students track their academic performance efficiently.</p>
               </SpeechBoxSolid>
             </article>
             <div className="w-full flex justify-center mt-4">
