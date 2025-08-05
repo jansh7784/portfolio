@@ -515,7 +515,7 @@ function App() {
           </div>
           <motion.div className="w-1/2 relative" initial={{ x: '100%' }} whileInView={{ x: 0 }} transition={{ duration: 1, delay: 0.5 }} viewport={{ once: true }}>          
             <CachedImage className='translate-y-64 -translate-x-20 md:translate-x-0 right-0 w-auto md:scale-100 scale-[450%]' src={hand}></CachedImage>
-            <a href="https://freelance.anshjain.dev" target="_blank" rel="noopener noreferrer">
+            <a href="https://jainansh.com/freelance" target="_blank" rel="noopener noreferrer">
               <button  className='absolute -left-56 md:left-12 py-1 px-2 md:py-2 md:px-4 border-2 border-black bg-black hover:bg-white text-white hover:text-black -bottom-48 md:bottom-32 text-base md:text-xl gaegu-regular -rotate-2 hover:rotate-6 hover:scale-105 transition-transform duration-100'># He also freelances btw</button>
             </a>
           </motion.div>
