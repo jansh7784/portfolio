@@ -947,7 +947,7 @@ function App() {
           <div className="flex flex-row gap-16">
             <div className="flex flex-col items-center">
               <a
-                href="https://drive.google.com/file/d/15owSoVRzK790PvYEza7jn6GHOUDquUAf/view?usp=sharing"
+                href="https://drive.google.com/file/d/1stbbC0gOAY1YuEG1JpWHM2WsV5QsT0Ft/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="box-button"
