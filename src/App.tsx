@@ -1,4 +1,4 @@
-import flyingTarun from './assets/superman.gif';
+import flyingAnsh from './assets/superman.gif';
 import { SpeechBox, SpeechBoxR, SpeechBoxL, SpeechBoxLL, SpeechBoxSolid } from './components/SpeechBox';
 import { AvatarCircles } from "./components/AvatarCircles";
 import skillbg from './assets/skillbg.webp';
@@ -9,7 +9,7 @@ import aaargh from './assets/img4.mp4';
 import arrow from './assets/arrow.webp';
 import link from './assets/link.webp';
 import LinkedinLogo from './assets/LinkedinLogo.webp';
-import XLogo from './assets/XLogo.webp';
+import MediumLogo from './assets/XLogo.webp';
 import GithubLogo from './assets/GithubLogo.webp';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useEffect, useState, useRef } from 'react';
