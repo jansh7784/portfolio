@@ -717,7 +717,7 @@ function App() {
                     className="max-w-[40vw] h-auto border-2 md:border-4 border-black"
                     controls
                     playsInline
-                    title="AAARGH!! - Voice-controlled flying game demonstration"
+                    title="RTU SGPA Calculator - Academic performance tracking tool"
                   />
                 </div>
               </article>
