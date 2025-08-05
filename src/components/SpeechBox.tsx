@@ -24,7 +24,7 @@ export function SpeechBoxSolid({ children, className = '' }: SpeechBoxProps) {
 } 
 
 export function SpeechBoxR({ children, className = '' }: SpeechBoxProps) {
-  const { scrollY } = useViewportScroll();
+  const { scrollY } = useScroll();
   const y = useTransform(scrollY, value => -value * 0.09);
   return (
     <motion.div style={{ y }} className={`border-2 border-black bg-white rounded-xl px-4 py-1 text-justify absolute ${className}`}>
