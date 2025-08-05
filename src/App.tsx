@@ -297,7 +297,7 @@ function App() {
           />
           {showSpeech && (
             <SpeechBoxR className="absolute max-w-[85vw] md:left-[15%] bottom-[25%] md:bottom-8 text-base z-20">
-              Since birth, Tarun showed signs of becoming<br className='hidden md:block'/> something more than human... <span className="gaegu-bold text-lg md:text-4xl">a Developer.</span>
+              Since birth, Ansh showed signs of becoming<br className='hidden md:block'/> something more than human... <span className="gaegu-bold text-lg md:text-4xl">a Developer.</span>
             </SpeechBoxR>
           )}
         </section>
