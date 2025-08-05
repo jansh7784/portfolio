@@ -748,15 +748,15 @@ function App() {
                   />
                 </div>
                 <a
-                  href="https://github.com/MaybeTarun/Concrete-Damage-Detector"
+                  href="https://github.com/jansh7784/deeptrack"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="absolute top-0 right-0 z-30"
-                  aria-label="View Concrete Damage Detector project on GitHub"
+                  aria-label="View DeepTrack project on GitHub"
                 >
                   <CachedImage
                     src={link}
-                    alt="Link to Concrete Damage Detector project"
+                    alt="Link to DeepTrack project"
                     className="w-10 h-10"
                     
                     loading="lazy"
@@ -765,15 +765,15 @@ function App() {
                 <div className="w-full h-auto border-2 md:border-4 border-black overflow-hidden">
                   <CachedImage
                     src={concrete}
-                    alt="Concrete Damage Detector - AI-powered crack detection system for infrastructure monitoring"
+                    alt="DeepTrack - AI-powered facial recognition attendance system"
                     className="w-full h-auto transition-transform duration-300"
                     loading="lazy"
                   />
                 </div>
               </div>
               <SpeechBoxSolid className="w-full mt-2 text-xs font-mono text-center">
-                <h3 className="font-bold font-mono text-sm capitalize text-center">Concrete Damage Detector</h3>
-                <p className="text-sm font-mono normal-case text-justify">Built a YOLO-powered damage detector to spot and segment cracks in concrete — keeping buildings strong, one frame at a time.</p>
+                <h3 className="font-bold font-mono text-sm capitalize text-center">DeepTrack</h3>
+                <p className="text-sm font-mono normal-case text-justify">Advanced deep learning-based attendance system using facial recognition to automatically mark attendance via CCTV cameras with real-time detection.</p>
               </SpeechBoxSolid>
             </article>
             <article className="w-[90vw] h-full">
