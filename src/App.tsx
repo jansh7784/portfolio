@@ -11,7 +11,7 @@ import link from './assets/link.webp';
 import LinkedinLogo from './assets/LinkedinLogo.webp';
 import XLogo from './assets/XLogo.webp';
 import GithubLogo from './assets/GithubLogo.webp';
-import { motion, useViewportScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { useEffect, useState, useRef } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import Lenis from 'lenis';
