@@ -571,7 +571,7 @@ function App() {
                   <div className="max-w-[40vw] h-auto border-2 md:border-4 border-black overflow-hidden">
                     <CachedImage
                       src={concrete}
-                      alt="Concrete Damage Detector - AI-powered crack detection system for infrastructure monitoring"
+                      alt="DeepTrack - AI-powered facial recognition attendance system"
                       className="w-full h-auto transition-transform duration-300"
                       loading="lazy"
                     />
