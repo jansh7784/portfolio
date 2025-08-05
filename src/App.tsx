@@ -550,23 +550,23 @@ function App() {
                     />
                   </div>
                   <a
-                    href="https://github.com/MaybeTarun/Concrete-Damage-Detector"
+                    href="https://github.com/jansh7784/deeptrack"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="absolute top-0 right-0 z-30"
-                    aria-label="View Concrete Damage Detector project on GitHub"
+                    aria-label="View DeepTrack project on GitHub"
                   >
                     <CachedImage
                       src={link}
-                      alt="Link to Concrete Damage Detector project"
+                      alt="Link to DeepTrack project"
                       className="w-10 h-10"
                       
                       loading="lazy"
                     />
                   </a>
                   <SpeechBoxSolid className="absolute left-1/2 bottom-4 -translate-x-1/2 w-2/3 px-4 py-2 z-10 m-0 text-xs font-mono text-center transition duration-500 group-hover:translate-y-[150%]">
-                    <h3 className="font-bold font-mono text-base capitalize text-center">Concrete Damage Detector</h3>
-                    <p className="text-sm font-mono normal-case text-justify">Built a YOLO-powered damage detector to spot and segment cracks in concrete — keeping buildings strong, one frame at a time.</p>
+                    <h3 className="font-bold font-mono text-base capitalize text-center">DeepTrack</h3>
+                    <p className="text-sm font-mono normal-case text-justify">Advanced deep learning-based attendance system using facial recognition to automatically mark attendance via CCTV cameras with real-time detection.</p>
                   </SpeechBoxSolid>
                   <div className="max-w-[40vw] h-auto border-2 md:border-4 border-black overflow-hidden">
                     <CachedImage
