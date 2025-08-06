@@ -58,9 +58,12 @@ const Hero = () => {
       </svg>
 
       <div ref={desktopRef} className="hidden md:block w-full h-dvh z-10 relative">
-        {desktopInView && (
+        {/* {desktopInView && (
           <Spline scene="https://prod.spline.design/2mxkQh0cYFty0m6L/scene.splinecode" />
-        )}
+        )} */}
+        <div className="w-full h-full bg-gradient-to-br from-purple-800 to-blue-900 flex items-center justify-center">
+          <div className="text-white text-8xl font-bold">ANSH</div>
+        </div>
         <div className='w-40 bottom-0 right-0 h-[10%] bg-[#0c0c0c] absolute'/>
         <div className='bottom-0 left-0 p-6 absolute barriecito text-white text-6xl text-left'>
           Making the Internet<br/>
