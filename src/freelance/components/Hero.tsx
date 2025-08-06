@@ -79,12 +79,20 @@ const Hero = () => {
               {/* Gradient overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
               
-              {/* Main text "ansh" */}
-              <div className="absolute inset-0 flex items-center justify-center">
+              {/* 3D ANSH Text */}
+              <div className="absolute inset-0 flex items-center justify-center" style={{ perspective: '1000px' }}>
                 <div className="text-center">
-                  <h1 className="text-[12rem] font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 drop-shadow-2xl animate-pulse tracking-wider">
-                    ansh
-                  </h1>
+                  <div 
+                    className="text-3d-container hover:scale-110 transition-transform duration-500"
+                    style={{
+                      transformStyle: 'preserve-3d',
+                      animation: 'rotate3d 8s ease-in-out infinite'
+                    }}
+                  >
+                    <h1 className="text-3d-text text-[12rem] font-black tracking-wider select-none cursor-pointer">
+                      ANSH
+                    </h1>
+                  </div>
                   <div className="h-2 w-48 mx-auto bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-full animate-pulse mt-4" />
                 </div>
               </div>
