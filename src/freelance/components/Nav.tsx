@@ -74,7 +74,7 @@ const Nav = () => {
           </a>
           
           <a 
-            href="https://github.com/MaybeTarun" 
+            href="https://github.com/jansh7784" 
             target="_blank" 
             rel="noopener noreferrer"
             className="px-1 py-2 md:p-2 rounded-full transition-transform duration-200 hover:scale-110"
