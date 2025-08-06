@@ -2,7 +2,7 @@ import linkedin from '../assets/LinkedinLogo.svg';
 import twitter from '../assets/XLogo.svg';
 import github from '../assets/GithubLogo.svg';
 import email from '../assets/EnvelopeSimple.svg';
-import tarun from '../assets/tarun.png';
+import ansh from '../assets/ansh.png';
 import { useEffect, useState } from 'react';
 
 const Nav = () => {
