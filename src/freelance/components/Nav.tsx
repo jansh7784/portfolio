@@ -46,8 +46,8 @@ const Nav = () => {
           <div className="font-mono text-base md:text-lg whitespace-nowrap text-white flex items-center">
             <a href="/">
               <img
-                src={tarun}
-                alt="Tarun Gupta"
+                src={ansh}
+                alt="Ansh Jain"
                 className="w-auto h-8 md:h-10 object-cover"
               />
             </a>
