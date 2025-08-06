@@ -58,40 +58,44 @@ const Hero = () => {
 
       {/* Desktop Version */}
       <div ref={desktopRef} className="hidden md:block w-full h-dvh z-10 relative overflow-hidden">
-        {/* Cool Animated Background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
-          {/* Animated particles */}
-          <div className="absolute inset-0">
-            {[...Array(20)].map((_, i) => (
-              <div
-                key={i}
-                className={`absolute w-2 h-2 bg-white rounded-full opacity-20 animate-[float-${i % 3}_${3 + Math.random() * 4}s_ease-in-out_infinite]`}
-                style={{
-                  left: `${Math.random() * 100}%`,
-                  top: `${Math.random() * 100}%`,
-                }}
-              />
-            ))}
-          </div>
-          
-          {/* Gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-          
-          {/* Main text "ansh" */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-center">
-              <h1 className="text-[12rem] font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 drop-shadow-2xl animate-pulse tracking-wider">
-                ansh
-              </h1>
-              <div className="h-2 w-48 mx-auto bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-full animate-pulse mt-4" />
+        {desktopInView && (
+          <>
+            {/* Cool Animated Background */}
+            <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
+              {/* Animated particles */}
+              <div className="absolute inset-0">
+                {[...Array(20)].map((_, i) => (
+                  <div
+                    key={i}
+                    className={`absolute w-2 h-2 bg-white rounded-full opacity-20 animate-[float-${i % 3}_${3 + Math.random() * 4}s_ease-in-out_infinite]`}
+                    style={{
+                      left: `${Math.random() * 100}%`,
+                      top: `${Math.random() * 100}%`,
+                    }}
+                  />
+                ))}
+              </div>
+              
+              {/* Gradient overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+              
+              {/* Main text "ansh" */}
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="text-center">
+                  <h1 className="text-[12rem] font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 drop-shadow-2xl animate-pulse tracking-wider">
+                    ansh
+                  </h1>
+                  <div className="h-2 w-48 mx-auto bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-full animate-pulse mt-4" />
+                </div>
+              </div>
+              
+              {/* Floating geometric shapes */}
+              <div className="absolute top-20 left-20 w-16 h-16 border-2 border-blue-400 rotate-45 opacity-30 animate-spin" />
+              <div className="absolute bottom-32 right-20 w-12 h-12 border-2 border-purple-400 rounded-full opacity-30 animate-bounce" />
+              <div className="absolute top-1/3 right-1/4 w-8 h-8 bg-pink-400 opacity-20 rotate-12 animate-pulse" />
             </div>
-          </div>
-          
-          {/* Floating geometric shapes */}
-          <div className="absolute top-20 left-20 w-16 h-16 border-2 border-blue-400 rotate-45 opacity-30 animate-spin" />
-          <div className="absolute bottom-32 right-20 w-12 h-12 border-2 border-purple-400 rounded-full opacity-30 animate-bounce" />
-          <div className="absolute top-1/3 right-1/4 w-8 h-8 bg-pink-400 opacity-20 rotate-12 animate-pulse" />
-        </div>
+          </>
+        )}
         
         <div className='bottom-0 left-0 p-6 absolute barriecito text-white text-6xl text-left z-20'>
           Making the Internet<br/>
@@ -101,32 +105,36 @@ const Hero = () => {
       
       {/* Mobile Version */}
       <div ref={mobileRef} className="block md:hidden w-full h-dvh relative z-10 overflow-hidden">
-        {/* Cool Mobile Background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
-          {/* Mobile particles */}
-          <div className="absolute inset-0">
-            {[...Array(10)].map((_, i) => (
-              <div
-                key={i}
-                className={`absolute w-1 h-1 bg-white rounded-full opacity-20 animate-[float-${i % 3}_${3 + Math.random() * 4}s_ease-in-out_infinite]`}
-                style={{
-                  left: `${Math.random() * 100}%`,
-                  top: `${Math.random() * 100}%`,
-                }}
-              />
-            ))}
-          </div>
-          
-          {/* Main text "ansh" for mobile */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-center">
-              <h1 className="text-[4rem] font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 drop-shadow-2xl animate-pulse tracking-wider">
-                ansh
-              </h1>
-              <div className="h-1 w-24 mx-auto bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-full animate-pulse mt-2" />
+        {mobileInView && (
+          <>
+            {/* Cool Mobile Background */}
+            <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
+              {/* Mobile particles */}
+              <div className="absolute inset-0">
+                {[...Array(10)].map((_, i) => (
+                  <div
+                    key={i}
+                    className={`absolute w-1 h-1 bg-white rounded-full opacity-20 animate-[float-${i % 3}_${3 + Math.random() * 4}s_ease-in-out_infinite]`}
+                    style={{
+                      left: `${Math.random() * 100}%`,
+                      top: `${Math.random() * 100}%`,
+                    }}
+                  />
+                ))}
+              </div>
+              
+              {/* Main text "ansh" for mobile */}
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="text-center">
+                  <h1 className="text-[4rem] font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 drop-shadow-2xl animate-pulse tracking-wider">
+                    ansh
+                  </h1>
+                  <div className="h-1 w-24 mx-auto bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-full animate-pulse mt-2" />
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
+          </>
+        )}
         
         <div className='bottom-0 left-0 p-6 absolute barriecito text-white text-lg text-left z-20'>
           Making the Internet<br/>
