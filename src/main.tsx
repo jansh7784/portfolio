@@ -18,6 +18,7 @@ createRoot(document.getElementById('root')!).render(
       <Route path="/projects" element={<AllProjects />}/>
       <Route path="/simple" element={<Simple />} />
       <Route path="/shooter" element={<ShooterRedirect />} />
+      <Route path="/freelance" element={<FreelancePortfolio />} />
     </Routes>
     </BrowserRouter>
   </StrictMode>,
