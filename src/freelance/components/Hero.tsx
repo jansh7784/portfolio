@@ -131,12 +131,20 @@ const Hero = () => {
                 ))}
               </div>
               
-              {/* Main text "ansh" for mobile */}
-              <div className="absolute inset-0 flex items-center justify-center">
+              {/* 3D ANSH Text Mobile */}
+              <div className="absolute inset-0 flex items-center justify-center" style={{ perspective: '800px' }}>
                 <div className="text-center">
-                  <h1 className="text-[4rem] font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 drop-shadow-2xl animate-pulse tracking-wider">
-                    ansh
-                  </h1>
+                  <div 
+                    className="text-3d-container active:scale-95 transition-transform duration-300"
+                    style={{
+                      transformStyle: 'preserve-3d',
+                      animation: 'rotate3dMobile 6s ease-in-out infinite'
+                    }}
+                  >
+                    <h1 className="text-3d-text-mobile text-[4rem] font-black tracking-wider select-none">
+                      ANSH
+                    </h1>
+                  </div>
                   <div className="h-1 w-24 mx-auto bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-full animate-pulse mt-2" />
                 </div>
               </div>
