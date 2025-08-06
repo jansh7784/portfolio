@@ -17,6 +17,22 @@
   display: none;
 }
 
+/* Custom animations for floating particles */
+@keyframes float-0 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  50% { transform: translateY(-20px) translateX(10px); }
+}
+
+@keyframes float-1 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  50% { transform: translateY(-15px) translateX(-10px); }
+}
+
+@keyframes float-2 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  50% { transform: translateY(-25px) translateX(5px); }
+}
+
 .gaegu-regular {
   font-family: "Gaegu", sans-serif;
   font-weight: 400;
