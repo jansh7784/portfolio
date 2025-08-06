@@ -56,7 +56,7 @@ const Nav = () => {
         
         <div className="flex flex-row justify-end basis-[150px] md:basis-[200px] text-white">
           <a 
-            href="http://www.linkedin.com/in/maybetarun" 
+            href="http://www.linkedin.com/in/ansh--jain" 
             target="_blank" 
             rel="noopener noreferrer"
             className="px-1 py-2 md:p-2 rounded-full transition-transform duration-200 hover:scale-110 color-white"
