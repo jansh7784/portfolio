@@ -100,7 +100,7 @@ const Hero = () => {
       </div>
       
       {/* Mobile Version */}
-      <div ref={mobileRef} className="block md:hidden w-full h-[40vh] relative z-10 overflow-hidden">
+      <div ref={mobileRef} className="block md:hidden w-full h-dvh relative z-10 overflow-hidden">
         {/* Cool Mobile Background */}
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
           {/* Mobile particles */}
