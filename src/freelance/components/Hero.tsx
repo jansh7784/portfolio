@@ -1,4 +1,4 @@
-import Spline from '@splinetool/react-spline';
+// import Spline from '@splinetool/react-spline';
 import lil from '../assets/lil.png';
 import { useRef, useState, useEffect } from 'react';
 
