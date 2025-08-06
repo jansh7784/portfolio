@@ -65,11 +65,10 @@ const Hero = () => {
             {[...Array(20)].map((_, i) => (
               <div
                 key={i}
-                className="absolute w-2 h-2 bg-white rounded-full opacity-20"
+                className={`absolute w-2 h-2 bg-white rounded-full opacity-20 animate-[float-${i % 3}_${3 + Math.random() * 4}s_ease-in-out_infinite]`}
                 style={{
                   left: `${Math.random() * 100}%`,
                   top: `${Math.random() * 100}%`,
-                  animation: `float-${i % 3} ${3 + Math.random() * 4}s ease-in-out infinite`
                 }}
               />
             ))}
@@ -109,11 +108,10 @@ const Hero = () => {
             {[...Array(10)].map((_, i) => (
               <div
                 key={i}
-                className="absolute w-1 h-1 bg-white rounded-full opacity-20"
+                className={`absolute w-1 h-1 bg-white rounded-full opacity-20 animate-[float-${i % 3}_${3 + Math.random() * 4}s_ease-in-out_infinite]`}
                 style={{
                   left: `${Math.random() * 100}%`,
                   top: `${Math.random() * 100}%`,
-                  animation: `float-${i % 3} ${3 + Math.random() * 4}s ease-in-out infinite`
                 }}
               />
             ))}
@@ -135,22 +133,6 @@ const Hero = () => {
           <span className="inline-flex items-end gap-1">Less boring<img src={lil} alt="Lil Icon" className="w-auto h-6 mb-[2px]"/></span>
         </div>
       </div>
-      
-      {/* Add custom animations */}
-      <style jsx>{`
-        @keyframes float-0 {
-          0%, 100% { transform: translateY(0px) translateX(0px); }
-          50% { transform: translateY(-20px) translateX(10px); }
-        }
-        @keyframes float-1 {
-          0%, 100% { transform: translateY(0px) translateX(0px); }
-          50% { transform: translateY(-15px) translateX(-10px); }
-        }
-        @keyframes float-2 {
-          0%, 100% { transform: translateY(0px) translateX(0px); }
-          50% { transform: translateY(-25px) translateX(5px); }
-        }
-      `}</style>
     </div>
   );
 }
