@@ -7,6 +7,7 @@ import AllProjects from './allprojects';
 import Simple from './simple';
 import NotFound from './notfound.tsx';
 import ShooterRedirect from './components/ShooterRedirect.tsx';
+import FreelancePortfolio from './freelance/FreelancePortfolio.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
