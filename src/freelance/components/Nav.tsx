@@ -65,7 +65,7 @@ const Nav = () => {
           </a>
           
           <a 
-            href="https://twitter.com/MaybeTarun" 
+            href="https://twitter.com/jansh7784" 
             target="_blank" 
             rel="noopener noreferrer"
             className="px-1 py-2 md:p-2 rounded-full transition-transform duration-200 hover:scale-110"
