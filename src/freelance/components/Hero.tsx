@@ -69,12 +69,9 @@ const Hero = () => {
       </div>
       
       <div ref={mobileRef} className="block md:hidden w-full h-[40vh] bg-[#0c0c0c] relative z-10">
-        {/* {mobileInView && (
-          <Spline scene="https://prod.spline.design/uNEfd7k0nlu7q3ld/scene.splinecode" />
-        )} */}
-        <div className="w-full h-full bg-gradient-to-br from-purple-800 to-blue-900 flex items-center justify-center">
-          <div className="text-white text-4xl font-bold">ANSH</div>
-        </div>
+        {mobileInView && (
+          <Spline scene="https://prod.spline.design/SgLUvNVB8tswDoei/scene.splinecode" />
+        )}
         <div className='w-40 bottom-0 right-0 h-[20%] bg-[#0c0c0c] absolute'></div>
         <div className='bottom-0 left-0 p-6 absolute barriecito text-white text-lg text-left'>
           Making the Internet<br/>
