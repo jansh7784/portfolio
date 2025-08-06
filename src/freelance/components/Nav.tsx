@@ -83,7 +83,7 @@ const Nav = () => {
           </a>
           
           <a 
-            href="mailto:tarun234.tg@gmail.com"
+            href="mailto:jansh7784@gmail.com"
             className="px-1 py-2 md:p-2 rounded-full transition-transform duration-200 hover:scale-110"
           >
             <img src={email} alt="Email" className="h-4 w-4 md:h-6 md:w-6" />
