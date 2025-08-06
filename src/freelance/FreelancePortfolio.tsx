@@ -15,7 +15,7 @@ function FreelancePortfolio() {
   };
 
   return (
-    <div className="bg-[#0c0c0c] min-h-screen">
+    <div className="bg-[#0c0c0c] min-h-screen w-full overflow-x-hidden">
       {isTransitioning ? (
         <TransitionLoader onTransitionComplete={handleTransitionComplete} />
       ) : (
@@ -28,9 +28,6 @@ function FreelancePortfolio() {
         >
           <Nav />
           <Hero />
-          <div className="relative w-full h-dvh bg-[#0c0c0c]">
-            
-          </div>
         </div>
       )}
     </div>
