@@ -498,7 +498,7 @@ function App() {
             <div className="relative w-full h-auto border-y-2 md:border-y-4 border-r-2 md:border-r-4 border-black overflow-hidden">
               <motion.img
                 src={quests}
-                alt="Tarun Gupta's various quests showcase"
+                alt="Ansh Jain's various quests showcase"
                 className="w-full h-auto"
                 loading="lazy"
                 initial={{ scale: 1.2 }}
