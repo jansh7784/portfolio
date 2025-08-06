@@ -922,7 +922,7 @@ function App() {
           <div className="w-full h-full object-cover border-y-4 border-black overflow-hidden">
             <motion.img
               src={looking}
-              alt="Tarun Gupta looking for new quests"
+              alt="Ansh Jain looking for new quests"
               className="w-full h-full object-cover"
               loading="lazy"
               initial={{ scale: 1.2 }}
