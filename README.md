@@ -9,8 +9,8 @@
       <img src="https://img.shields.io/badge/License-Apache%202.0-green?style=for-the-badge"/>
     </a>
   </p>
-  <img src="<img width="1919" height="917" alt="image" src="https://github.com/user-attachments/assets/ff0d9b3b-92fb-4b26-a989-f371b010b87d" />
-" style="border-radius:12px;max-width:700px;">
+  "<img width="1919" height="917" alt="image" src="https://github.com/user-attachments/assets/e3b3c0a5-3d31-4f8f-adea-4ac0192ca6be" />
+"
 </div>
 
 ---
