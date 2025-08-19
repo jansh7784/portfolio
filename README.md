@@ -9,7 +9,8 @@
       <img src="https://img.shields.io/badge/License-Apache%202.0-green?style=for-the-badge"/>
     </a>
   </p>
-  <img src="public/portfolio-preview.png" alt="Portfolio Screenshot" style="border-radius:12px;max-width:700px;">
+  <img src="<img width="1919" height="917" alt="image" src="https://github.com/user-attachments/assets/ff0d9b3b-92fb-4b26-a989-f371b010b87d" />
+" style="border-radius:12px;max-width:700px;">
 </div>
 
 ---
@@ -123,7 +124,10 @@ Deployed with [Vercel](https://vercel.com) — every push to `main` auto-updates
 
 ## 🖼️ Screenshots
 
-> Add a screenshot of your live portfolio to `public/portfolio-preview.png` for an instant visual!
+"<img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/f5ead188-5115-4ec3-b961-534f58a887ea" />
+"
+"<img width="1919" height="920" alt="image" src="https://github.com/user-attachments/assets/191f6798-b2df-47ff-b2aa-7e1948a9e189" />
+"
 
 ---
 
@@ -149,5 +153,5 @@ If you like this portfolio, ⭐️ the repo and share!
 ---
 
 <div align="center">
-  <b>Crafted with ❤️ by Jain Ansh</b>
+  <b>Crafted with ❤️ by Ansh</b>
 </div>
